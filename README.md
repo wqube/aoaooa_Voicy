@@ -1,2 +1,1 @@
-# aoaooa_Voicy
-Иot for converting voice messages
+Hello, it's aoaooa3 telegram bot
