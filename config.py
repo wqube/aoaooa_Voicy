@@ -2,8 +2,7 @@ from aiogram.dispatcher import Dispatcher
 from aiogram import Bot, types
 import os
 
-# TOKEN = os.getenv('BOT_TOKEN')
-TOKEN = "5459105690:AAEUvz7AR9rb0MaT9V2FiLQByfACJoDbsPQ"
+TOKEN = os.getenv('BOT_TOKEN')
 bot = Bot(token=TOKEN, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
 
